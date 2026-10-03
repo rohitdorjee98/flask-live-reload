@@ -17,7 +17,7 @@ authors = [
     { name = "Rohit Dorjee", email = "dorjeerohit98@gmail.com" }
 ]
 
-license = { file = "LICENSE" }
+license = "MIT" 
 
 keywords = [
     "flask",
