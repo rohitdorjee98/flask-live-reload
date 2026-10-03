@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "flask-live-reload"
+version = "0.1.0"
+
+description = "A lightweight live reload tool for Flask development"
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Rohit Dorjee", email = "dorjeerohit98@gmail.com" }
+]
+
+license = { file = "LICENSE" }
+
+keywords = [
+    "flask",
+    "live-reload",
+    "flask-development",
+    "web-development",
+    "development-tools"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Flask",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License"
+]
+
+dependencies = [
+    "Flask>=2.0"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/rohitdorjee98/flask-live-reload"
+Repository = "https://github.com/rohitdorjee98/flask-live-reload"
+Issues = "https://github.com/rohitdorjee98/flask-live-reload/issues"
+
+
+[tool.setuptools.packages.find]
+include = ["flask_live_reload*"]
